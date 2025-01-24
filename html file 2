@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+        <img src="my_image.jpg" alt="My Image">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a strong interest in creating user-friendly and visually appealing websites. I have experience in HTML, CSS, JavaScript, and other web technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="project1.jpg" alt="Project 1">
+            <p>Description of Project 1</p>
+            <a href="project1_link.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="project2.jpg" alt="Project 2">
+            <p>Description of Project 2</p>
+            <a href="project2_link.html">View Project</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: my_email@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
